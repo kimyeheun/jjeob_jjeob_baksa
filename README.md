@@ -8,7 +8,7 @@
 
 
 ## 초기화
-* `git clone `
+* `git clone https://github.com/kimyeheun/sosohan_project.git`
 * `python -m venv venv`
 * `source venv/Scripts/activate`
 * `cd sosohan_project`  
