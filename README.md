@@ -1,10 +1,10 @@
-# sosohan_project
+# jjeob_jjeob_baksa
 
 # 브랜치 설정하기
 * `git clone https://github.com/kimyeheun/jjeob_jjeob_baksa.git`
 * `python -m venv venv`
 * `source venv/Scripts/activate`
-* `cd sosohan_project`  
+* `cd jjeob_jjeob_baksa`  
 * `git branch [브랜치 이름]`
 * `git checkout [브랜치 이름]`
 * `git push -u origin [브랜치 이름]`
