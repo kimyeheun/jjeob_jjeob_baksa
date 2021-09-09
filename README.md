@@ -1,7 +1,7 @@
 # sosohan_project
 
 # 브랜치 설정하기
-* `git clone https://github.com/kimyeheun/sosohan_project.git`
+* `git clone https://github.com/kimyeheun/jjeob_jjeob_baksa.git`
 * `python -m venv venv`
 * `source venv/Scripts/activate`
 * `cd sosohan_project`  
@@ -14,7 +14,8 @@
 * `pip install pip --upgrade`
   
 # 개발할 때 순서
-* `source venv/Scripts/activate`
+* `(윈도우면) source venv/Scripts/activate` 
+* `(맥이면) source vnev/bin/activate`
 * developing~~
 * `git add [파일]`
 * `git commit -m "Commit Message"`
