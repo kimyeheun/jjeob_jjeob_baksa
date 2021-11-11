@@ -4,8 +4,8 @@ from django.db.models.fields.related import ForeignKey
 # Create your models here.
 class Food(models.Model):
     food_id = models.IntegerField(null=True)
-    user_id = models.ForeignKey()
-    category_id = models.ForeignKey()
+    # user_id = models.ForeignKey(on_delete=True, to=User)
+    # category_id = models.ForeignKey(on_delete=True, to=User)
 
     heart_vote = models.BooleanField(default=False)
 
