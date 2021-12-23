@@ -1,0 +1,18 @@
+회원가입
+
+<br>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <p>아이디</p>
+    <input name="user_id" type="text">
+    <p>이름</p>
+    <input name="user_name" type="text">
+    <p>비밀번호</p>
+    <input name="password" type="password">
+    <p>이메일</p>
+    <input name="user_email" type="text">
+    <p>닉네임</p>
+    <input name="user_nick" type="text">
+    <input type="submit" value="회원가입">
+</form>

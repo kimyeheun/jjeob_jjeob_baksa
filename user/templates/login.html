@@ -1,0 +1,30 @@
+
+{% if user.is_authenticated %}
+회원 프로필
+<br><br>
+유저 아이디: {{user.user_id}}
+<br>
+유저 이름: {{user.user_name}}
+<br>
+유저 이메일: {{user.user_email}}
+<br>
+유저 카테고리: {{user.user_category}}
+<br>
+음식 추천 수: {{user.food_reco}}
+<br>
+유저 프로필 사진: {{user.user_pic}}
+<br>
+<a href="{% url 'USER:logout' %}">로그아웃</a>
+
+{% else %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    로그인
+    <input name="username" type="text">
+    <input name="password" type="password">
+    <input type="submit" value="로그인">
+</form>
+<a href="{% url 'USER:signup' %}">회원가입</a>
+
+{% endif %}
