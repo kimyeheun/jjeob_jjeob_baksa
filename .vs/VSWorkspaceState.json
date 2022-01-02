@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\comment",
-    "\\comment\\migrations"
+    "\\comment\\migrations",
+    "\\food",
+    "\\jjeob_jjeob_baksa"
   ],
-  "SelectedNode": "\\comment\\models.py",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
